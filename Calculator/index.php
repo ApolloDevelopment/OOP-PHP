@@ -29,7 +29,7 @@
 <body>
   <div class="container">
     <h4 class="center-align">Basic OOP Calculator - Enter your numbers</h4>
-    <form class="col s12 center-align" style="margin-top: 50px;" action="<?= $_SERVER['PHP_SELF'] ?>" method="POST">
+    <form class="col s12 center-align" style="margin-top: 50px;" action="<?= $_SERVER['PHP_SELF'] ?>" method="POST" autocomplete="off">
     <div class="row">
         <div class="input-field col s6">
           <input id="num1" name="num1" type="text" class="validate">

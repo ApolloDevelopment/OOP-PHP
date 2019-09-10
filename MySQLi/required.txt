@@ -1,0 +1,7 @@
+Required Database: 
+"oop-php-mysqli"
+
+table: "users"
+  - id (primary key, not null)
+  - name (varchar 60, not null)
+  - number (varchar 20, not null)
